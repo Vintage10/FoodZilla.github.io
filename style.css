@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    height: 550px;
+    background-image: url(images/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    text-align: center;
+    color: orange;
+}
+.header img {
+    width: 170px;
+    float: left;
+}
+.header h1 {
+    padding-top: 190px;
+    padding-bottom: 0px;
+    font-size: 55px;
+}
+.header p {
+    margin: 18px 0;
+}
+
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: grey;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px 0 0 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    width: 150px;
+    background-image: linear-gradient(orange,chocolate);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 45px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+
+
+.features
+{
+    padding: 100px 0;
+}
+ h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img {
+    width: 100%;
+}
+.feature-img{
+    position: relative;
+}
+h4 {
+    text-align: center;
+}
+h5{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+.banner
+{
+    height: 100%;
+    background-image: url(images/Z.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
+.banner-highlights {
+    padding: 70px 0px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
+.gallery {
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1sec;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Explore a{
+    color: black;
+}
+
+.Explore a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.users-feedback{
+    padding: 100px 0;
+}
+.user-review {
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+.user-review p {
+    padding: 50px 10px 10px 10px;
+}
+.users-feedback img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+
+.footer {
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(orange,chocolate);
+    color: #fff;
+}
+.footer-logo {
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa{
+    padding-right: 2px;
+    font-size: 15px;
+}
+.footer hr 
+{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart{
+    margin:  5px;
+    color: #f44336;
+}
+.footer .copyright{
+   text-align: center;
+}
